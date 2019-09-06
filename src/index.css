@@ -1,0 +1,102 @@
+body {
+  margin: auto;
+  font-family: 'Lexend Peta', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://opengameart.org/sites/default/files/1_37.png);
+}
+
+* {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 3px 2px rgba(78, 13, 13, 0.247);
+  color: cyan;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.25em;
+  text-align: center;
+  padding: 30px;
+}
+
+.randomNumber {
+  font-size: 3em;
+  text-align: center;
+  padding: 10px;
+}
+
+
+button {
+  position: relative;
+  left: 44%;
+  top: 50%;
+  margin: auto;
+  box-align: center;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 2em;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {background-color: darkgreen}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.container {
+  width: 200px;
+  height: 120px;
+  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 44%;
+  top: 50%;
+  margin: auto;
+  box-align: center;
+}
+
+
+.container img {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 44%;
+  top: 50%;
+  margin: auto;
+  box-align: center;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.arrow:active {
+  transform: translateY(4px);
+}
